@@ -12,7 +12,7 @@ class Driver {
   trips() {
      return store.drivers.filter(
             function(driver) {
-                return item.userId === this.id;
+                return item.driverId === this.id;
             }.bind(this)
         );
   }
