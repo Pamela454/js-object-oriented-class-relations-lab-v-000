@@ -10,7 +10,7 @@ class Driver {
   }
   
   trips() {
-     return store.drivers.filter(
+     return store.trips.filter(
             function(driver) {
                 return driver.driverId === this.id;
             }.bind(this)
