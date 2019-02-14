@@ -10,6 +10,10 @@ class Driver {
   }
   
   trips() {
-    return Trip.all
+   return store.drivers.filter(
+            function(item) {
+                return item.userId === this.id;
+            }.bind(this)
+        );
   }
 }
