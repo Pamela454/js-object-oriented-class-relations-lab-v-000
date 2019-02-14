@@ -10,6 +10,6 @@ class Driver {
   }
   
   trips() {
-    return 
+    return Trip.all
   }
 }
