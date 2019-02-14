@@ -29,6 +29,10 @@ class Passenger {
 
   }
   
+  trips() {
+    
+  }
+  
   drivers() {
      return store.drivers.filter(
             function(driver) {
