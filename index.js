@@ -5,6 +5,7 @@ class Driver {
     this.id = ++driverId
     this.name = name
      
+     //add drivers to the store 
     store.drivers.push(this)
   }
 }
