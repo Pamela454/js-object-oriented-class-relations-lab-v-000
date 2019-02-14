@@ -19,7 +19,7 @@ class Driver {
 }
 
 let passengerId = 0;
-let store = {passengers: []}
+let store = {passengers: []};
 
 class Passenger {
   constructor(name) {
