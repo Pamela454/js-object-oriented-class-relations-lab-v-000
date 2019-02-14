@@ -46,3 +46,9 @@ class Passenger {
         );
   }
 }
+
+class Trip {
+  
+}
+
+
