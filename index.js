@@ -8,4 +8,8 @@ class Driver {
      //add drivers to the store 
     store.drivers.push(this)
   }
+  
+  trips() {
+    return 
+  }
 }
